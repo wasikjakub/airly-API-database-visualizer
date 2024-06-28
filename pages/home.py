@@ -4,25 +4,26 @@ from dash import html
 dash.register_page(__name__, path='/')
 
 layout = html.Div([
-    html.H1('Advanced Databases 2024 project', style={'filter': 'brightness(1.5)', 'textAlign': 'center'}),  # Brighter text
+    html.H1('Air pollution in Poland', style={'filter': 'brightness(5)', 'textAlign': 'center'}), 
     html.H2(
         [
-            'The data comes from Airly, an application responsible for monitoring air conditions all around the world: ',
+            'The data source is an application monitoring air quality conditions globally: ',
             html.A(
-                'source', 
+                'airly.org', 
                 href='https://airly.org/pl/', 
-                target='_blank',  # Opens the link in a new tab
-                style={'color': 'darkblue', 'textDecoration': 'none'}  # Styles the link
+                target='_blank',  
+                style={ 'filter': 'brightness(5)', 'color': 'yellow', 'textDecoration': 'none'}  
             )
         ],
-        style={'filter': 'brightness(1.5)'},
+        style={'filter': 'brightness(5)'},
     ),
-    html.H2('Prepared by:', style={'filter': 'brightness(1.5)'}),  # Darker text
+    html.H2('This project aims to create an interactive dashboard using Dash, a Python framework for building analytical web applications. The dashboard will provide users with comprehensive visualizations and insights into air quality data collected by Airly and stored in MySQL database.', style={'filter': 'brightness(5)'}),
+    html.H2('Authors:', style={'filter': 'brightness(5)'}),  
     html.Ul([
-        html.Li('Michał Ściubisz', style={'filter': 'brightness(2)'}),  # Slightly brighter text
-        html.Li('Tomisław Tarnawski', style={'filter': 'brightness(2)'}),  # Slightly brighter text
-        html.Li('Wojciech Tokarz', style={'filter': 'brightness(2)'}),  # Slightly brighter text
-        html.Li('Jakub Wąsik', style={'filter': 'brightness(2)'}),  # Slightly brighter text
+        html.Li('Michał Ściubisz', style={'filter': 'brightness(5)'}),  
+        html.Li('Tomisław Tarnawski', style={'filter': 'brightness(5)'}),  
+        html.Li('Wojciech Tokarz', style={'filter': 'brightness(5)'}),  
+        html.Li('Jakub Wąsik', style={'filter': 'brightness(5)'}), 
     ])
 ])
 
