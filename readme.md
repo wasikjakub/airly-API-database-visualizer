@@ -39,6 +39,8 @@ We use a MySQL database available from AGH: </br>
 
 ## Preview
 
+Watch the dashboards live [here](https://youtu.be/IWB6gRvBP4k)
+
 Dashboard 1: </br>
 ![image](https://github.com/wasikjakub/airly-API-database-visualizer/assets/144064944/41271725-39cf-43a5-9d91-bd0a59091c94)
 
