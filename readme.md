@@ -22,15 +22,22 @@ We use a MySQL database available from AGH: </br>
 
 [Baza](https://mysql.agh.edu.pl/phpMyAdmin/index.php) </br>
 
+- **Structure Preview:**
+![image](https://github.com/wasikjakub/airly-API-database-visualizer/assets/144064944/90352b19-7997-42b7-a070-23ae3a8ab034)
+
+![image](https://github.com/wasikjakub/airly-API-database-visualizer/assets/144064944/20693e73-98e9-4f07-bffc-504982b7073e)
+
+![image](https://github.com/wasikjakub/airly-API-database-visualizer/assets/144064944/b8f1e856-2f18-40f0-811a-9ea502125c57)
+
 ## File Description
 
-app.py: This file sets up the Dash application. It creates a layout that includes a navigation menu and a page container for dashboards. It also styles the navigation buttons and centers them on the page.
+- **app.py**: This file sets up the Dash application. It creates a layout that includes a navigation menu and a page container for dashboards. It also styles the navigation buttons and centers them on the page.
 
-database.py: This file sets up the Flask application and connects to a MySQL database. It defines SQLAlchemy models for storing location data, dust measurements, gas measurements, and AQI indicators. It also initializes the database tables.
+- **database.py**: This file sets up the Flask application and connects to a MySQL database. It defines SQLAlchemy models for storing location data, dust measurements, gas measurements, and AQI indicators. It also initializes the database tables.
 
-requests.py: This file handles fetching data from the Airly API. It includes functions to fetch air quality data, store it in the database, and schedule periodic data fetching using BackgroundScheduler.
+- **requests.py**: This file handles fetching data from the Airly API. It includes functions to fetch air quality data, store it in the database, and schedule periodic data fetching using BackgroundScheduler.
 
-## Previev
+## Preview
 
 Dashboard 1:
 
@@ -40,7 +47,7 @@ Dashboard 3:
 
 Example usage video: 
 
-## Uruchomienie aplikacji
+## App
 
 To use the application, it is necessary to run two files. Initially, you need to start the database.py file.
 
@@ -54,7 +61,7 @@ Next, start the file responsible for the dashboards app.py.
 python app.py
 ```
 
-### Linki
+### Links
 
 [Mapa](https://airly.org/map/pl/) </br>
 [Dokumentacja](https://developer.airly.org/en/docs#introduction) </br>
