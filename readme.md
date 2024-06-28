@@ -22,7 +22,7 @@ We use a MySQL database available from AGH: </br>
 
 [Baza](https://mysql.agh.edu.pl/phpMyAdmin/index.php) </br>
 
-- **Structure Preview:**
+- **Structure Preview:** </br>
 ![image](https://github.com/wasikjakub/airly-API-database-visualizer/assets/144064944/90352b19-7997-42b7-a070-23ae3a8ab034)
 
 ![image](https://github.com/wasikjakub/airly-API-database-visualizer/assets/144064944/20693e73-98e9-4f07-bffc-504982b7073e)
@@ -39,11 +39,14 @@ We use a MySQL database available from AGH: </br>
 
 ## Preview
 
-Dashboard 1:
+Dashboard 1: </br>
+![image](https://github.com/wasikjakub/airly-API-database-visualizer/assets/144064944/41271725-39cf-43a5-9d91-bd0a59091c94)
 
-Dashboard 2:
+Dashboard 2: </br>
+![image](https://github.com/wasikjakub/airly-API-database-visualizer/assets/144064944/2ec22c37-eee2-437b-b536-41ff1d952bdb)
 
-Dashboard 3:
+Dashboard 3: </br>
+![image](https://github.com/wasikjakub/airly-API-database-visualizer/assets/144064944/ed98a7dd-1507-4d2d-81f0-81f4f85afcc2)
 
 Example usage video: 
 
