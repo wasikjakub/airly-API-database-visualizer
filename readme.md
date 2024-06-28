@@ -50,8 +50,6 @@ Dashboard 2: </br>
 Dashboard 3: </br>
 ![image](https://github.com/wasikjakub/airly-API-database-visualizer/assets/144064944/ed98a7dd-1507-4d2d-81f0-81f4f85afcc2)
 
-Example usage video: 
-
 ## App
 
 To use the application, it is necessary to run two files. Initially, you need to start the database.py file.
