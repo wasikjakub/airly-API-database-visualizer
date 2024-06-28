@@ -23,6 +23,7 @@ We use a MySQL database available from AGH: </br>
 [Baza](https://mysql.agh.edu.pl/phpMyAdmin/index.php) </br>
 
 - **Structure Preview:** </br>
+</br>
 ![image](https://github.com/wasikjakub/airly-API-database-visualizer/assets/144064944/90352b19-7997-42b7-a070-23ae3a8ab034)
 
 ![image](https://github.com/wasikjakub/airly-API-database-visualizer/assets/144064944/20693e73-98e9-4f07-bffc-504982b7073e)
