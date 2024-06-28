@@ -1,51 +1,40 @@
 ## Airly
 
-Projekt zbierający i prezentujący dane pobrane z platformy [Airly](https://airly.org/map/pl/#50.057224,19.933157,i103904).
+A project that collects and presents data retrieved from the [Airly](https://airly.org/map/pl/#50.057224,19.933157,i103904) platform.
 
-Do połączenia do bazy danych konieczne jest wykorzystanie VPNa lub korzystania z sieci AGH.
+To connect to the database, it is necessary to use a VPN or be on the AGH network.
 
-### Wykorzystane technologie
+## Used Technologies
 
-Flask -> backend + SQLAlchemy </br>
-urllib.request -> zapytania poprzez API </br>
-BackgroundScheduler -> do realizacji zapytań co określony czas </br>
-sqlalchemy.orm -> do tworzenia sesji wysyłania danych do bazy </br>
-Dash -> frontend, utworzenie dashboardów
+- **Flask**: backend + SQLAlchemy
+- **urllib.request**: API requests
+- **BackgroundScheduler**: to execute requests at specified intervals
+- **sqlalchemy.orm**: to create sessions and send data to the database
+- **Dash**: frontend, creating dashboards
 
 ```
 pip install -r requirements.txt
 ```
 
-### Baza danych
+## Database
 
-Używamy bazy MySQL dostępnej z AGH: </br>
+We use a MySQL database available from AGH: </br>
 
 [Baza](https://mysql.agh.edu.pl/phpMyAdmin/index.php) </br>
 
-Login:
-
-```
-michals1
-```
-
-Hasło:
-
-```
-ZDg8L4NMGhAVDkGV
-```
 
 ### Uruchomienie aplikacji
 
-W celu użytkowania aplikacji konieczne jest uruchomienie dwóch plików, początkowo nalezy uruchomić plik *database.py*
+To use the application, it is necessary to run two files. Initially, you need to start the database.py file.
 
 ```
 python database.py
 ```
 
-Następnie należy uruchomić plik odpowiedzialny za dashboardy *switch.py*
+Next, start the file responsible for the dashboards app.py.
 
 ```
-python switch.py
+python app.py
 ```
 
 ### Linki
