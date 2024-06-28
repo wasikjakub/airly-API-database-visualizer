@@ -20,8 +20,6 @@ pip install -r requirements.txt
 
 We use a MySQL database available from AGH: </br>
 
-[Baza](https://mysql.agh.edu.pl/phpMyAdmin/index.php) </br>
-
 - **Structure Preview:** </br>
 </br>
 
