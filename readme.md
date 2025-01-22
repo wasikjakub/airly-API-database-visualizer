@@ -70,3 +70,9 @@ python app.py
 [Dokumentacja](https://developer.airly.org/en/docs#introduction) </br>
 [Requesty](https://developer.airly.org/en/api) </br>
 
+## Additional Authors
+
+Huge thanks for contributions for: 
+- @ttarnawski
+- @michalsciubisz
+- @WojtekTok
